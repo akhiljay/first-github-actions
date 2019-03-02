@@ -1,9 +1,9 @@
 workflow "New workflow" {
   on = "issues"
-  resolves = ["akhil jayaprakash"]
+  resolves = ["echo"]
 }
 
-action "akhil jayaprakash" {
+action "echo" {
   uses = "./action-a"
-  args = "Akhil Jayapras"
+  args = "This is my first action"
 }
