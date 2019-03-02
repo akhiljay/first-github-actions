@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-sh -c "echo $* 'your name'""
+sh -c "echo $* 'your name'"
